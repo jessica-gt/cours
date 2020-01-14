@@ -1,0 +1,73 @@
+.article {
+	width:80%;
+	padding-bottom: 50px;
+	display:flex;
+	color:white;
+}
+
+/* formulaire */
+
+.form {
+	width:80%;
+	height:80%;
+	display:flex;
+	flex-direction: column;
+}
+
+.form p {
+	font-weight: bold;
+	font-size: 12px;	
+}
+
+.form span {
+	font-weight: normal;
+}
+
+.form input {
+	background-color: rgba(0, 0, 0, 0.3);	
+	border:1px rgba(255, 255, 255, 0.3) solid;
+	color:white;
+	width:20%;
+}
+
+.form textarea {
+	background-color: rgba(0, 0, 0, 0.3);	
+	border:1px rgba(255, 255, 255, 0.3) solid;
+	color:white;
+	margin-bottom:10px;
+	width:60%;
+}
+
+.submit input {
+	border:none;
+	width:10%;
+	height:100%;
+}
+
+/* news et search */
+
+.latestNews {
+	width:20%;
+}
+
+.latestNews input {
+	background-color: rgba(0, 0, 0, 0.3);	
+	border:1px rgba(255, 255, 255, 0.3) solid;
+	color:white;
+	width:100%;
+	height:5%;
+	margin:10% 0 10% 0;
+}
+
+.latestNews h3 {
+	font-size: 18px;
+}
+
+.latestNews h4, p {
+	font-size: 15px;	
+}
+
+.latestNews span {
+	color:rgba(255, 255, 255, 0.5);
+	font-size: 12px;
+}

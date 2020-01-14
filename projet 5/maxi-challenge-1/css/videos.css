@@ -1,0 +1,226 @@
+/* social icon */
+
+@font-face {
+    font-family: '../monosocialiconsfont-master/Mono Social Icons Font';
+    src: url('../monosocialiconsfont-master/MonoSocialIconsFont-1.10.eot');
+    src: url('../monosocialiconsfont-master/MonoSocialIconsFont-1.10.eot?#iefix') format('embedded-opentype'),
+         url('../monosocialiconsfont-master/MonoSocialIconsFont-1.10.woff') format('woff'),
+         url('../monosocialiconsfont-master/MonoSocialIconsFont-1.10.ttf') format('truetype'),
+         url('../monosocialiconsfont-master/MonoSocialIconsFont-1.10.svg#MonoSocialIconsFont') format('svg');
+    src: url('../monosocialiconsfont-master/MonoSocialIconsFont-1.10.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.symbol, a.symbol:before {
+    font-family: '../monosocialiconsfont-master/Mono Social Icons Font';
+    -webkit-text-rendering: optimizeLegibility;
+    -moz-text-rendering: optimizeLegibility;
+    -ms-text-rendering: optimizeLegibility;
+    -o-text-rendering: optimizeLegibility;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    -ms-font-smoothing: antialiased;
+    -o-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+}
+
+a.symbol:before {
+    content: attr(title);
+    margin-right: 0.3em;
+    font-size: 130%;
+}
+
+/* body */
+
+body {
+	margin:0 auto;
+	background-color: black;
+	justify-content: center;
+}
+
+hr {
+	width:80%;
+	border:1px rgba(255, 255, 255, 0.5) solid;
+}
+
+/* background */
+
+.bg {
+	position:absolute;
+	z-index:-1;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	background:url("../images/background.jpg") fixed;
+	background-size:cover;
+	background-position: center center;
+	opacity:0.5;
+	width:auto;
+}
+
+.container {
+	position:relative;
+	z-index:1;
+	display:flex;
+	flex-direction:column;
+	align-items: center;
+	font-family: "Quicksand";
+}
+
+/* navbar */
+
+.nav ul {
+	display:flex;
+}
+
+.nav li {
+	list-style: none;
+	margin-right: 50px;
+	padding-top: 30px;
+}
+
+.nav a {
+	color:rgba(255, 255, 255, 0.5);
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.nav a:hover {
+	color:rgba(255, 255, 255, 1);
+}
+
+.nav #here {
+	color:rgba(255, 255, 255, 1);
+}
+
+/* big title */
+
+.title {
+	color:rgba(255, 255, 255, 1);
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+	/*margin-top: 200px; A copier uniquement sur le css home*/
+}
+
+.title h1 {
+	font-size: 70px;
+	margin-bottom: 0;
+	font-weight: normal;
+}
+
+.title h2 {
+	color:rgba(255, 255, 255, 0.5);
+	font-size:18px;
+	font-weight: normal;
+}
+
+/* audio */
+
+.audio {
+	width:100%;
+  	position: fixed;
+  	bottom: 0;
+}
+
+audio {
+	width:100%;
+}
+
+/* videos */
+
+.container-video1 {
+	display: flex;
+	justify-content: space-between;
+	width:80%;
+	margin-top:5%;
+}
+
+.container-video2 {
+	display: flex;
+	justify-content: space-between;
+	width:80%;
+	margin-bottom:5%;
+}
+
+.container-video1 img {
+	width: 100%;
+}
+
+.container-video2 img {
+	width: 100%;
+}
+
+.video {
+	width: 30%;
+}
+
+.video p{
+	color:white;
+	font-weight: bold;
+}
+
+
+/* footer */
+
+footer {
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.post {
+	color:white;
+	display:flex;
+	justify-content: center;
+	width:80%;
+}
+
+.about {
+	width:40%;
+	margin:30px;
+}
+
+.about p {
+	color:rgba(255, 255, 255, 0.5);
+}
+
+.about strong {
+	color:rgba(255, 255, 255, 0.7);
+}
+
+.about em {
+	font-size: 12px;
+}
+
+.about img {
+	width:100%;
+}
+
+/* footer social */
+
+.social {
+	height:300px;
+}
+
+.social ul {
+	display:flex;
+}
+
+.social li {
+	list-style: none;
+}
+
+.social a {
+	color:white;
+	text-decoration: none;
+	font-size: 30px;
+}
+
+.social p {
+	color:white;
+	text-align: center;
+}

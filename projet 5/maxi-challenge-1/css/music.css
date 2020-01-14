@@ -1,0 +1,60 @@
+/* div Article avec image et list */
+
+.article {
+	color:white;
+	display:flex;
+	justify-content: space-between;
+	width:80%;
+	margin-top: 30px;
+}
+
+/* image et boutons */
+
+.img {
+	display:flex;
+	flex-direction: column;
+}
+
+.img button {
+	background-color: rgba(0, 0, 0, 0.4);
+	color:white;
+	border:none;
+	padding: 10px 0 10px 0;
+	margin: 5px 0 5px 0;
+}
+
+.img img {
+	margin-bottom: 40px;
+}
+
+/* liste de musique */
+
+.list {
+	width:75%;
+	margin-left: 30px;
+}
+
+.list li {
+	display: flex;
+	justify-content: space-between;
+	border-top:1px rgba(255, 255, 255, 0.5) solid;
+}
+
+.list p {
+	display: inline-block;
+}
+
+.list span {
+	margin-right: 40px;
+	color:rgba(255, 255, 255, 0.5);
+}
+
+.list ol {
+	padding:0;
+}
+
+.release {
+	color:rgba(255, 255, 255, 0.5);
+	font-weight: bold;
+	font-size: 12px;
+}

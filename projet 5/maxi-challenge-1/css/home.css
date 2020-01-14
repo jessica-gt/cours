@@ -1,0 +1,142 @@
+.title {
+	margin-top: 300px;
+	margin-bottom: 300px;
+}
+
+/* article 1 titre */
+
+.videoTitle {
+	width:100%;
+	color:white;
+	display:flex;
+	justify-content: space-between;
+}
+
+.videoTitle p {
+	margin:0 10% 0 10%;	
+	color:rgba(255, 255, 255, 0.5);
+	font-size: 12px;
+}
+
+.videoTitle span {
+	font-weight: bold;
+	color:rgba(255, 255, 255, 1);
+	font-size: 18px;
+}
+
+/* Article 1 video */
+
+.videos {
+	display:flex;
+	justify-content: space-between;
+	width:80%;
+	color:white;
+	font-weight: bold;
+}
+
+.item1 {
+	width:30%;
+	border-bottom:1px rgba(255, 255, 255, 0.5) solid;
+	border-right:1px rgba(255, 255, 255, 0.5) solid;
+	border-top:1px rgba(255, 255, 255, 0.5) solid;
+	padding: 3% 3% 0 0;
+}
+
+.item2 {
+	width:30%;
+	border-bottom:1px rgba(255, 255, 255, 0.5) solid;
+	border-top:1px rgba(255, 255, 255, 0.5) solid;
+	padding: 3% 3% 0 3%;
+}
+
+.item3 {
+	width:30%;
+	border-bottom:1px rgba(255, 255, 255, 0.5) solid;
+	border-left:1px rgba(255, 255, 255, 0.5) solid;
+	border-top:1px rgba(255, 255, 255, 0.5) solid;
+	padding: 3% 0 0 3%;
+}
+
+.videos img {
+	width:100%;
+}
+
+/* article 2 liste */
+
+.gigs {
+	width:80%;
+	color:white;
+}
+
+.gigs ul p {
+	width:100%;
+	border-top:1px rgba(255, 255, 255, 0.5) solid;
+	padding: 10px;
+	margin:0;
+}
+
+.gigs ul {
+	list-style: none;
+	padding-left:2%;
+}
+
+.gigs li {
+	display:flex;
+}
+
+.date {
+	padding-right:2%;
+	font-size: 12px;
+}
+.date5 {
+	padding-right:1.5%;
+	font-size: 12px;
+}
+
+.number {
+	padding-right:10%;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.city1 {
+	padding-right:40%;
+	font-size: 18px;
+	font-weight: bold;
+	color:rgba(255, 255, 255, 0.7);
+}
+.city2 {
+	padding-right:41.1%;
+	font-size: 18px;
+	font-weight: bold;
+	color:rgba(255, 255, 255, 0.7);
+}
+.city3 {
+	padding-right:39.1%;
+	font-size: 18px;
+	font-weight: bold;
+	color:rgba(255, 255, 255, 0.7);
+}
+.city4 {
+	padding-right:37.5%;
+	font-size: 18px;
+	font-weight: bold;
+	color:rgba(255, 255, 255, 0.7);
+}
+.city5 {
+	padding-right:33.4%;
+	font-size: 18px;
+	font-weight: bold;
+	color:rgba(255, 255, 255, 0.7);
+}
+
+.shop {
+	color:rgba(255, 255, 255, 0.7);
+	font-size: 18px;
+}
+
+.allGigs {
+	text-align: center;
+	font-weight: bold;
+	color:rgba(255, 255, 255, 0.7);
+}

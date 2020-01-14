@@ -1,0 +1,89 @@
+/* ligne de photo 1 */
+
+.article {
+	width:80%;
+}
+
+.imgRow1 {
+	display:flex;
+	flex-direction: row;
+	margin-bottom: 4px;
+	margin-top:50px;
+}
+
+.imgCol1 {
+	display:flex;
+	flex-direction: column;
+	width:66.7%;
+}
+
+.imgCol2 {
+	display:flex;
+	justify-content: space-between;
+	flex-direction: column;
+	width:33.3%;
+}
+
+.image9 {
+	width:99.5%;
+}
+
+.image4, .image5 {
+	width:99.5%;
+	height:49.7%;
+}
+
+/* photo ligne 2 */
+
+.imgRow2 {
+	width:100%;
+	display:flex;
+	justify-content: space-between;	
+	margin-bottom: 4px;
+}
+
+.image8, .image7, .image6 {
+	height:100%;
+}
+
+.image8 {
+	width:40.7%;
+}
+
+.image7 {
+	width:40.7%;
+}
+
+.image6 {
+	width:18.1%;
+}
+
+/* photo ligne 3 */
+
+.imgRow3 {
+	width:100%;
+	display:flex;
+	justify-content: space-between;	
+	margin-bottom: 4px;
+	margin-bottom: 50px;
+}
+
+.image3, .image1, .image2, .image10 {
+	height:100%;
+}
+
+.image3 {
+	width:29.2%;
+}
+
+.image1 {
+	width:29.2%;
+}
+
+.image2 {
+	width:13%;
+}
+
+.image10 {
+	width:27.6%;
+}
