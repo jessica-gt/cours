@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<title>index</title>
+		<meta charset="utf-8">
+		<style>
+			span{
+				color:red;
+			}
+			.selected{
+				background-color: #88f;
+			}
+		</style>
+	</head>
+	<body>
+		<div>
+			<span id='erreur'></span><br>
+			<input type='text' placeholder="Prénom" id='texte' required>
+			<button id='ajouter' onclick='ajouterElement()'>Ajouter</button>
+			<button id='annuler' onclick='enleverElement()'>Annuler</button>
+			<button id='supprimer' onclick='supprimerElement()'>supprimer</button>
+			<button id='refresh' onclick='refresh()'>restauration</button>
+			<ul id='liste'>
+			</ul>
+		</div>
+		<script src="index.js"></script>
+	</body>
+</html>
