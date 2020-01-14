@@ -1,0 +1,166 @@
+/*
+Couleur rose : #e692f8;
+Couleur jaune : #fef8a0;
+Couleur orange : #ffc957;
+*/
+
+body {
+	margin:0 auto;
+	background-color: #fef8a0;
+	cursor: url(../images/swag.cur) 2 2, pointer;
+	font-family: "Stylish";
+}
+
+a:hover, input:hover, button:hover {
+	cursor: url(../images/swag.cur) 2 2, pointer;
+}
+
+/* introduction et description */
+
+.intro {
+	width:75%;
+	height:274px;
+	display:flex;
+	flex-direction: row;
+	align-items:center;
+	justify-content: space-around;
+	text-align: center;
+	background-color: #fef8a0;
+	color:#e692f8;
+}
+
+.intro img {
+	width:400px;
+	height:225px;
+ 	border: 10px solid transparent;
+  	border-image: url(../images/border.png) 30 round;
+}
+
+.text {
+	width:318px;
+	height:161px;
+	overflow: hidden;
+}
+
+.text h1 {
+	font-size:26px;
+	margin:0;
+}
+
+.text h2 {
+	font-size:26px;
+	margin:0;
+}
+
+.text p {
+	font-size:18px;
+	margin:0;
+}
+
+/* articles et photos */
+
+.donuts {
+	width:75%;
+	height:583px;
+	display:flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	align-items:center;
+	justify-content: space-around;
+	text-align: center;
+	color:#e692f8;
+	overflow: auto;
+}
+
+.bouffe {
+	margin:0 5% 0 5%;
+}
+
+.donuts img {
+	width:210px;
+	height:149px;
+ 	border: 10px solid transparent;
+ 	border-image: url(../images/border.png) 30 round;
+ }
+
+.donuts p {
+	width:257px;
+	height:17px;
+	font-size: 14px;
+}
+
+.donuts button {
+	color:#fef8a0;
+	background-color: #e692f8;
+	border-radius: 5px;
+	width:110px;
+	height:25px;
+}
+
+.donuts input {
+	background-color: #ffc957;
+}
+
+/* order fixe */
+
+.order {
+	width:25%;
+	height:64%;
+  	position: fixed;
+  	right: 0;
+  	top: 270px;
+  	margin-top: -2.5em;
+  	background-color: #ffc957;
+  	text-align: center;
+	color:#e692f8;
+	font-size:26px;
+	overflow:auto;
+	box-shadow: 0 0 8px rgba(0, 0, 0, 1);
+}
+
+.order h2 {
+	margin: 20px 0;
+}
+
+.login {
+  	display:flex;
+  	flex-direction:column;
+  	align-items: center;
+}
+
+.login input {
+	width:200px;
+	margin:10px;
+	background-color: #fef8a0;
+	border:1px #e692f8 solid;
+	color:#e692f8;
+}
+
+.login button {
+	width:137px;
+	height:35px;
+	margin-top: 10px;
+	background-color:#e692f8;
+	color:#fef8a0; 
+}
+
+.cart {
+  	display:flex;
+  	flex-direction:column;
+  	align-items: center;
+}
+
+.cart button {
+	width:110px;
+	height:25px;
+	background-color:#e692f8;
+	color:#fef8a0; 	
+}
+
+.cart h2 {
+	margin-bottom: 0;
+}
+
+.cart ul {
+	margin-top: 0;
+}

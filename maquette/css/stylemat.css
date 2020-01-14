@@ -1,0 +1,105 @@
+body {
+	padding: 0;
+	margin: 0;
+	background-color: #fef8a0;
+}
+
+p {
+	color: #e692f8;
+}
+
+/*.loc img {
+	border: 1px solid #e692f8;
+}*/
+
+footer a {
+	text-decoration: none;
+	color: #e692f8;
+	font-size: 1.5em;
+}
+
+.loc {
+	width:75%;
+	height: 423px;
+	background-color: #fef8a0;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.map {
+	width: 626px;
+	height: 340px;
+	box-shadow: 0 0 8px rgba(0, 0, 0, 1);
+}
+
+.map img {
+	max-width: 100%;
+	height: auto;
+}
+
+.address {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.address img {
+  border: 10px solid transparent;
+  border-image: url(../images/border.png) 30 round;
+}
+
+footer {
+	color: #e692f8;
+	height: 77px;
+	background-color: #ffc957;
+}
+
+footer ul {
+	margin: 0;
+	padding-top: 15px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	list-style-type: none;
+}
+
+footer ul li {
+	padding-left: 40px;
+}
+
+/*Police utilisée pour les icônes des réseaux sociaux*/
+
+@font-face {
+    font-family: 'Mono Social Icons Font';
+    src: url('../fonts/MonoSocialIconsFont-1.10.eot');
+    src: url('../fonts/MonoSocialIconsFont-1.10.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/MonoSocialIconsFont-1.10.woff') format('woff'),
+         url('../fonts/MonoSocialIconsFont-1.10.ttf') format('truetype'),
+         url('../fonts/MonoSocialIconsFont-1.10.svg#MonoSocialIconsFont') format('svg');
+    src: url('../fonts/MonoSocialIconsFont-1.10.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.symbol, a.symbol:before {
+    font-family: 'Mono Social Icons Font';
+    -webkit-text-rendering: optimizeLegibility;
+    -moz-text-rendering: optimizeLegibility;
+    -ms-text-rendering: optimizeLegibility;
+    -o-text-rendering: optimizeLegibility;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    -ms-font-smoothing: antialiased;
+    -o-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+}
+
+a.symbol:before {
+    content: attr(title);
+    margin-right: 0.3em;
+    font-size: 170%;
+}
