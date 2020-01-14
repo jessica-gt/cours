@@ -1,0 +1,194 @@
+body {
+	background: url("elements/bg.png");
+}
+
+.container {
+	display:flex;
+	flex-direction: column;
+	width:994px;
+	margin:0 auto;
+	background: white;
+	box-shadow: 1px 1px 5px grey;
+	align-items: center;
+	margin-bottom: 50px;
+}
+
+.image img {
+	margin-top: 25px;
+	width:900px;
+	height:508px;
+}
+
+.enTete {
+	display:flex;
+	padding-top:50px;
+	padding-bottom: 25px;
+	width:900px;
+	justify-content: space-between;
+}
+
+h1 , h2 {
+	font-family: "Terminal Dosis";
+}
+
+p , a , h3 {
+	font-family:"Helvetica Neue";
+	font-size:13px;
+}
+
+h1 {
+	margin-bottom:0;
+	margin-top: 0;
+	font-size:52px;
+	color: #505050;
+}
+
+.titre p {
+	margin-top: 0;
+	margin-bottom:0;
+}
+
+.loupe {
+	width:34px;
+	height:22px;
+	border-bottom:1px grey solid;
+	align-self: center;
+	background: url("elements/bg.png");
+	text-align: center;
+}
+
+.loupe a {
+	width:34px;
+	height:22px;
+}
+
+.loupe img {	
+	padding-top: 5px;
+}
+
+.deroulant {
+	height:59px;
+}
+
+.nav {
+	border-bottom:1px grey solid;
+	border-top:1px grey solid;
+}
+
+.nav ul {
+	margin:0;
+	padding:0;
+	list-style-type:none;
+	text-align:center;
+}
+
+.nav li {
+	float:left;
+	margin:auto;
+	background: url("elements/bg.png");
+}
+
+.nav li a {
+	display:block;
+	width:150px;
+	color: #505050;
+	text-decoration:none;
+	padding-top:20px;
+}
+
+.sous li a {
+	padding-top:10px;
+	padding-bottom:10px;
+}
+
+.sous li:first-child {
+	margin-top:20px;
+}
+
+.nav ul li ul {
+	display:none;
+}
+
+.nav ul li:hover ul {
+	display:block;
+}
+
+.nav li:hover ul li {
+	float:none;
+}
+
+.nav li ul {
+	position:absolute;
+}
+
+.paragraphe1 {
+	width:900px;
+}
+
+.titreArticle {
+	text-align: center;
+}
+
+h2 {
+	margin-bottom:0;
+	font-size:28px;
+}
+
+.titreArticle p {
+	margin-top:22px;
+	margin-bottom: 30px;
+	color: #909090;
+}
+
+.titreArticle a {
+	color: #505050;
+	text-decoration: none;
+}
+
+hr {
+	width:900px;
+	height:40px;
+	border:none;
+	background: url("elements/bg.png");
+	border-bottom:1px grey solid;
+	border-top:1px grey solid;
+	margin-bottom: 0;
+}
+
+.paragraphe2 {
+	width:900px;
+	margin-bottom: 20px;
+}
+
+h3 {
+	font-weight: normal;
+}
+
+.table {
+	display: flex;
+	text-align: left;
+	background: url("elements/bg.png");
+	border-top:1px grey solid;
+}
+
+.article2 {
+	width:25%;	
+	height:235px;
+	color:#505050;
+}
+
+.article2 p {
+	font-weight: bold;
+}
+
+.article2 a {
+	text-decoration: none;
+	color:#505050;
+}
+
+.titreFooter {
+	height:75px;
+	display:flex;
+	justify-content: center;
+	align-items:center;
+}
