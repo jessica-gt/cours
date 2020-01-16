@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<title>objet</title>
+		<meta charset="utf-8">
+		<style>
+			span{
+				color:red;
+			}
+			#resultatRecherche{
+				color:green;
+			}
+		</style>
+	</head>
+	<body>
+		<div>
+			<span id='erreur'></span><br>
+			<input type='text' placeholder="Prénom" id='prenom'>
+			<input type='text' placeholder="Nom" id='nom'>
+			<input type='text' placeholder="Numéro" id='numero'>
+			<button id='ajouter' onclick='ajouterContact()'>Ajouter</button>
+			<br>
+			<input type='text' placeholder="..." id='rechercher'>
+			<button id='search' onclick='rechercher()'>Rechercher</button>
+			<ul id='contact'>
+			</ul>
+			<div id='resultatRecherche'></div>
+		</div>
+		<script src="objet.js"></script>
+	</body>
+</html>

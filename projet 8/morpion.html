@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<title>morpion</title>
+		<meta charset="utf-8">
+		<style>
+			body{
+				display:flex;
+				flex-direction: column;
+				align-items: center;
+			}
+			#jeu{
+				width:50%;
+				height:500px;
+				display:flex;
+				flex-direction: row;
+				flex-wrap: wrap;
+			}
+			#l1c1,#l1c2,#l1c3,#l2c1,#l2c2,#l2c3,#l3c1,#l3c2,#l3c3{
+				width:32.78%;
+				border:solid 1px black;
+				height:32.9%;
+				text-align:center;
+				font-size:140px;
+			}
+			.player1{
+				color:green;
+			}
+			.player2{
+				color:red;
+			}
+			#button{
+				width:50%;
+				text-align: center;
+			}
+		</style>
+	</head>
+	<body>
+		<div id='jeu'>
+			<div id='l1c1'></div>
+			<div id='l1c2'></div>
+			<div id='l1c3'></div>
+			<div id='l2c1'></div>
+			<div id='l2c2'></div>
+			<div id='l2c3'></div>
+			<div id='l3c1'></div>
+			<div id='l3c2'></div>
+			<div id='l3c3'></div>
+		</div>
+		<div id='button'>
+			<button id='reset' onclick='reset()'>Reset</button>
+			<p><span class='player1'>green = player1</span> <span class='player2'>red = player2</span></p>
+		</div>
+		<script src="morpion.js"></script>
+	</body>
+</html>

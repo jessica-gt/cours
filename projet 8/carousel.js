@@ -4,6 +4,29 @@ let precedent=document.getElementById('precedent');
 
 //vous aurez besoin de ce genre de choses: 
 //carousel.style.borderColor="#f00";
+
+function color(nb){
+	let ok=false;
+	let i=0;
+	while (i<=3 && !ok){
+		if (carousel.children[i].style.display===''){
+			ok=true;
+			if (i%2===0){
+				suivant.style.backgroundColor="#f88";
+				suivant.style.border="none";
+				precedent.style.backgroundColor="#f88";
+				precedent.style.border="none";
+			}else{
+				suivant.style.backgroundColor="#8f8";
+				suivant.style.border="none";
+				precedent.style.backgroundColor="#8f8";
+				precedent.style.border="none";
+			}
+		}
+		i++;
+	}
+}
+
 function next(){
 	let ok=false;
 	let i=0;
@@ -19,6 +42,7 @@ function next(){
 			}
 		}
 		i++;
+		color();
 	}
 }
 
@@ -37,6 +61,7 @@ function previous(){
 			}
 		}
 		i++;
+		color();
 	}
 }
 
@@ -93,3 +118,4 @@ function previous(){
 
 suivant.onclick=next;
 precedent.onclick=previous;
+color();
