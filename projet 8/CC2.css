@@ -1,10 +1,142 @@
+body{
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+	background: url('images/bg.jpg') no-repeat;
+	background-size: cover;
+	margin:0;
+	padding:0;
+}
+
 #container{
 	display:flex;
 	flex-direction: column;
 	align-items: center;
 }
 
-img {
+div{
+	align-self: center;
+}
+
+.nombres{
+	width:100px;
+	text-align:center;
+}
+
+#bouton img {
 	height:236px;
 	width:300px;
+}
+
+#affichage{
+	color:green;
+}
+
+#affichage span{
+	color:red;
+}
+#affichage p{
+	display:flex;
+}
+
+#ligne{
+	display:flex;
+}
+
+#bouton {
+	background-color: transparent;
+	border:none;
+	margin-top:10px;
+	outline:none;
+	height:336px;
+	width:400px;
+	display:flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+}
+
+#bouton:active img{
+	transition: all 0.5s ease;
+	height:336px;
+	width:400px;
+}
+
+
+#multiplicateur, #autoclick, #autoclick2, #autoclick3 {
+	background:transparent;
+	color:grey;
+	border:grey solid 1px;
+	outline: none;
+	margin:10px;
+}
+
+#multiplicateur:enabled, #autoclick:enabled, #autoclick2:enabled, #autoclick3:enabled{
+	border:red solid 1px;
+	color:red;
+}
+
+.fraise{
+	width: 10px;
+	height: 10px;
+}
+
+.fraise1{
+	width: 20px;
+	height: 20px;
+}
+
+.ferme{
+	width: 15px;
+	height: 15px;	
+}
+
+.usine{
+	width: 20px;
+	height: 15px;
+}
+
+.ville{
+	width: 20px;
+	height: 20px;
+}
+
+.on{
+	opacity:1;
+	top:100px;
+	position: absolute;
+	color:red;
+	z-index:1;
+}
+
+.off{
+	position: absolute;
+	z-index:1;
+	opacity:0;
+	transition: all 4s ease;
+	top:10px;
+}
+
+#plusScore1{
+	left:35%;
+}
+
+#plusScore2{
+	left:40%;
+}
+
+#plusScore3{
+	left:45%;
+}
+
+#plusScore4{
+	left:50%;
+}
+
+#plusScore5{
+	left:55%;
+}
+
+#plusScore6{
+	left:60%;
 }
